@@ -126,14 +126,14 @@ function AgenticTerminal() {
 }
 
 const benefits = [
-  { icon: <Zap size={20} />, title: "Built for your coding tools", description: "OwnVoice pastes directly into Cursor, Claude Code, Copilot, and more \u2014 so you can command a fleet of AI agents with your voice instead of your keyboard." },
-  { icon: <MessageSquare size={20} />, title: "Speak it, ship it", description: "Describe entire features out loud and let agents handle the rest. Richer context in, better code out \u2014 no typing bottleneck." },
+  { icon: <Zap size={20} />, title: "Built for your coding tools", description: "OwnVoice pastes directly into Cursor, Claude Code, Copilot, and more, so you can command a fleet of AI agents with your voice instead of your keyboard." },
+  { icon: <MessageSquare size={20} />, title: "Speak it, ship it", description: "Describe entire features out loud and let agents handle the rest. Richer context in, better code out, no typing bottleneck." },
 ];
 
 export function AgenticSection() {
   const reduce = useShouldReduceMotion();
   return (
-    <SectionWrapper title="Faster Agentic Workflows." subtitle="Use OwnVoice with Cursor, Claude Code, Copilot, or any other agentic coding app \u2014 without touching your keyboard." id="agentic" icon={<Zap size={28} strokeWidth={1.5} />} accentColor="#FF9F0A">
+    <SectionWrapper title="Faster Agentic Workflows." subtitle="Use OwnVoice with Cursor, Claude Code, Copilot, or any other agentic coding app, without touching your keyboard." id="agentic" icon={<Zap size={28} strokeWidth={1.5} />} accentColor="#FF9F0A">
       <div className="mt-14 flex flex-col lg:flex-row items-start gap-14 max-w-[960px] mx-auto">
         <div className="flex-1 space-y-10 text-left order-2 lg:order-1 lg:self-center">
           {benefits.map((benefit, i) => (
